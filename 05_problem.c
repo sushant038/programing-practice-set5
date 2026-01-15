@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int a = 4;
+    printf("%d %d %d\n", a, ++a, a++);
+    // 6 6 4 evalution is left to right ;
+    // 4 5 5 evaluation is right to left ;
+    
+    return 0;
+}
